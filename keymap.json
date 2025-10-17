@@ -80,5 +80,10 @@
       "ctrl-right": "vim::ResizePaneRight",
       "ctrl-up": "vim::ResizePaneUp"
     }
+  },
+  {
+    "bindings": {
+      "f12": "workspace::ToggleCenteredLayout"
+    }
   }
 ]
