@@ -61,7 +61,8 @@
       "ctrl-]": "pane::ActivateNextItem",
       "space f": "editor::Format",
       "\\": "pane::SplitDown",
-      "|": "pane::SplitRight"
+      "|": "pane::SplitRight",
+      "space c": "pane::CloseActiveItem"
     }
   },
   {
