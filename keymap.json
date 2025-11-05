@@ -12,8 +12,7 @@
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
       "ctrl-j": "workspace::ActivatePaneUp",
-      "ctrl-k": "workspace::ActivatePaneDown",
-      "ctrl-shift-t": "terminal_panel::Toggle"
+      "ctrl-k": "workspace::ActivatePaneDown"
     }
   },
   {
@@ -43,13 +42,13 @@
   //     "g e": "vim::PreviousSubwordEnd"
   //   }
   // },
-  {
-    "context": "vim_mode == normal || vim_mode == visual || vim_mode == helix_normal || vim_mode == helix_visual",
-    "bindings": {
-      "s": "vim::PushSneak",
-      "shift-s": "vim::PushSneakBackward"
-    }
-  },
+  // {
+  //   "context": "vim_mode == normal || vim_mode == visual || vim_mode == helix_normal || vim_mode == helix_visual",
+  //   "bindings": {
+  //     "s": "vim::PushSneak",
+  //     "shift-s": "vim::PushSneakBackward"
+  //   }
+  // },
   {
     "context": "vim_mode == normal || vim_mode == helix_normal",
     "bindings": {
