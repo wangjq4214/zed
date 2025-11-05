@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "helix_mode": true,
   "wsl_connections": [
     {
       "distro_name": "Ubuntu",
@@ -30,11 +31,7 @@
   "gutter": {
     "line_numbers": true
   },
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 1000
-    }
-  },
+  "autosave": "on_focus_change",
   "soft_wrap": "editor_width",
   "tab_size": 2,
   "minimap": {
@@ -55,15 +52,12 @@
     "dark": "Material Icon Theme"
   },
   "base_keymap": "VSCode",
-  "vim_mode": true,
+  "vim_mode": false,
   "ui_font_size": 16,
   "buffer_font_size": 20.0,
   "theme": {
     "mode": "dark",
     "light": "One Light",
     "dark": "One Dark"
-  },
-  "features": {
-    "edit_prediction_provider": "copilot"
   }
 }
