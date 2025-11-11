@@ -77,5 +77,11 @@
     "bindings": {
       "f12": "workspace::ToggleCenteredLayout"
     }
+  },
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "space m": "vim::PushMark"
+    }
   }
 ]
