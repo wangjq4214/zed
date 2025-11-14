@@ -30,7 +30,7 @@
     "file_icons": true,
     "git_status": true
   },
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "gutter": {
     "line_numbers": true
   },
