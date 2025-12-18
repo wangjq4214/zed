@@ -8,59 +8,61 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "edit_predictions": {
-    "mode": "subtle"
+    "mode": "subtle",
   },
-  "helix_mode": true,
+  "features": {
+    "edit_prediction_provider": "copilot",
+  },
   "wsl_connections": [
     {
       "distro_name": "Ubuntu",
       "user": null,
       "projects": [
         {
-          "paths": ["/home/derek/workspace/Bumblebee"]
-        }
-      ]
-    }
+          "paths": ["/home/derek/workspace/Bumblebee"],
+        },
+      ],
+    },
   ],
   "project_panel": {
     "hide_gitignore": true,
-    "dock": "right"
+    "dock": "right",
   },
   "tabs": {
     "file_icons": true,
-    "git_status": true
+    "git_status": true,
   },
   "relative_line_numbers": "enabled",
   "gutter": {
-    "line_numbers": true
+    "line_numbers": true,
   },
   "autosave": "on_focus_change",
   "soft_wrap": "editor_width",
   "tab_size": 2,
   "minimap": {
-    "show": "auto"
+    "show": "auto",
   },
   "inlay_hints": {
-    "enabled": true
+    "enabled": true,
   },
   "buffer_font_family": "Maple Mono NF CN",
   "ui_font_family": "Maple Mono NF CN",
   "telemetry": {
     "diagnostics": true,
-    "metrics": true
+    "metrics": true,
   },
   "icon_theme": {
     "mode": "dark",
     "light": "Zed (Default)",
-    "dark": "Material Icon Theme"
+    "dark": "Material Icon Theme",
   },
   "base_keymap": "VSCode",
-  "vim_mode": false,
+  "vim_mode": true,
   "ui_font_size": 16,
   "buffer_font_size": 20.0,
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Fleet Dark"
-  }
+    "dark": "Fleet Dark",
+  },
 }
